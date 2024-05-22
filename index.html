@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu">
+        <nav>
+            <h1>BOB DOE</h1>
+            <ul>
+                <li><a href="#z1">Accueil</a></li>
+                <li><a href="#z2">Galerie</a></li>
+                <li><a href="#z3">Compétences</a></li>
+                <li><a href="#z4">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container">
+        <div id="z1" class="container-childs">
+            <div id="sc1">
+                <h1>Accueil</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam necessitatibus fugit nulla minus esse quae, non ab veritatis pariatur quos, ut velit doloribus ea deleniti fugiat excepturi laborum. Placeat nesciunt eaque aliquid, eos eum obcaecati ipsum officia ea, accusamus accusantium veniam pariatur reprehenderit blanditiis eligendi dolores ipsa laudantium error iure unde quisquam sunt illo atque molestiae. Quaerat fugit laboriosam neque, a amet mollitia modi quibusdam odit saepe velit impedit repudiandae aperiam nobis recusandae optio quasi aspernatur quia, quisquam fugiat! Cum nisi sed obcaecati perferendis, ipsa asperiores repellendus, rerum quidem culpa tenetur earum consequuntur unde. Ut ipsa, excepturi quaerat iure atque veniam aut illum molestiae deleniti sequi. Aliquam cupiditate, officia quasi vel cumque atque esse minus voluptatibus tenetur, libero magnam mollitia alias laboriosam vitae! Quis error modi deleniti, unde quia esse.</p>
+            </div>
+        </div>
+        <div id="z2" class="container-childs">
+            <div id="sc2">
+                <h1>Galerie</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam necessitatibus fugit nulla minus esse quae, non ab veritatis pariatur quos, ut velit doloribus ea deleniti fugiat excepturi laborum. Placeat nesciunt eaque aliquid, eos eum obcaecati ipsum officia ea, accusamus accusantium veniam pariatur reprehenderit blanditiis eligendi dolores ipsa laudantium error iure unde quisquam sunt illo atque molestiae. Quaerat fugit laboriosam neque, a amet mollitia modi quibusdam odit saepe velit impedit repudiandae aperiam nobis recusandae optio quasi aspernatur quia, quisquam fugiat! Cum nisi sed obcaecati perferendis, ipsa asperiores repellendus, rerum quidem culpa tenetur earum consequuntur unde. Ut ipsa, excepturi quaerat iure atque veniam aut illum molestiae deleniti sequi. Aliquam cupiditate, officia quasi vel cumque atque esse minus voluptatibus tenetur, libero magnam mollitia alias laboriosam vitae! Quis error modi deleniti, unde quia esse.</p>
+            </div>
+        </div>
+        <div id="z3" class="container-childs">
+            <div id="sc3">
+                <h1>Compétences</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam necessitatibus fugit nulla minus esse quae, non ab veritatis pariatur quos, ut velit doloribus ea deleniti fugiat excepturi laborum. Placeat nesciunt eaque aliquid, eos eum obcaecati ipsum officia ea, accusamus accusantium veniam pariatur reprehenderit blanditiis eligendi dolores ipsa laudantium error iure unde quisquam sunt illo atque molestiae. Quaerat fugit laboriosam neque, a amet mollitia modi quibusdam odit saepe velit impedit repudiandae aperiam nobis recusandae optio quasi aspernatur quia, quisquam fugiat! Cum nisi sed obcaecati perferendis, ipsa asperiores repellendus, rerum quidem culpa tenetur earum consequuntur unde. Ut ipsa, excepturi quaerat iure atque veniam aut illum molestiae deleniti sequi. Aliquam cupiditate, officia quasi vel cumque atque esse minus voluptatibus tenetur, libero magnam mollitia alias laboriosam vitae! Quis error modi deleniti, unde quia esse.</p>
+            </div>
+        </div>
+        <div id="z4" class="container-childs">
+            <div id="sc4">
+                <h1>Contact</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam necessitatibus fugit nulla minus esse quae, non ab veritatis pariatur quos, ut velit doloribus ea deleniti fugiat excepturi laborum. Placeat nesciunt eaque aliquid, eos eum obcaecati ipsum officia ea, accusamus accusantium veniam pariatur reprehenderit blanditiis eligendi dolores ipsa laudantium error iure unde quisquam sunt illo atque molestiae. Quaerat fugit laboriosam neque, a amet mollitia modi quibusdam odit saepe velit impedit repudiandae aperiam nobis recusandae optio quasi aspernatur quia, quisquam fugiat! Cum nisi sed obcaecati perferendis, ipsa asperiores repellendus, rerum quidem culpa tenetur earum consequuntur unde. Ut ipsa, excepturi quaerat iure atque veniam aut illum molestiae deleniti sequi. Aliquam cupiditate, officia quasi vel cumque atque esse minus voluptatibus tenetur, libero magnam mollitia alias laboriosam vitae! Quis error modi deleniti, unde quia esse.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/jquery.localScroll.min.js"></script>
+    <script src="script/jquery.scrollTo.min.js"></script>
+    <script src="script/jquery.parallax-1.1.3.js"></script>
+    <script src="script/lenis.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $.localScroll();
+            $('#z1').parallax("50%", 0.3 )
+            $('#z2').parallax("50%", 0.3 )
+            $('#z3').parallax("50%", 0.3 )
+            $('#z4').parallax("50%", 0.3 )
+        }
+        );
+    </script>
+</body>
+</html>
